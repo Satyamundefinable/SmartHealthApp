@@ -1,0 +1,111 @@
+.mw-hero-section {
+  padding: 80px 0;
+  background-color: #fcfdfe; 
+  text-align: center;
+}
+
+.mw-container {
+  border-bottom: 1px solid #2d2b2b;
+}
+
+.mw-hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.mw-hero-text {
+  flex: 1;
+  min-width: 400px;
+}
+
+.mw-hero-text h1 .highlight {
+  color: #00c471; 
+}
+
+.mw-hero-text p {
+  font-size: 1.15em;
+  margin-bottom: 30px;
+  max-width: 550px;
+}
+
+.mw-hero-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.mw-talk-counselor {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.mw-talk-counselor:hover {
+  color: #2980b9;
+}
+
+
+
+.mw-hero-image-placeholder img {
+  height: 300px;
+  width: 40vw;
+  min-width: 300px;
+  border-radius: 10px;
+  margin: 0 20px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.7);
+}
+
+.mw-stats {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 80px;
+  padding-top: 40px;
+  border-top: 1px solid #eee;
+}
+
+.mw-stat-item {
+  text-align: center;
+}
+
+.mw-stat-item strong {
+  display: block;
+  font-size: 2.2em;
+  color: #2c3e50;
+  font-weight: 700;
+}
+
+.mw-stat-item span {
+  color: #666;
+  font-size: 0.95em;
+  font-weight: 500;
+}
+.mw-button {
+  padding: 12px 5px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  text-decoration: none;
+  color: white; 
+
+}
+.mw-button-cta {
+  background-color: #00c471;
+}
+.mw-button-cta:hover {
+  background-color: #00a85e;
+  transform: translateY(-2px);
+}
