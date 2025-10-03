@@ -1,8 +1,8 @@
+<<<<<<< HEAD
 
 # SmartHealthApp
 
 
-# SmartHealthApp
 
 >>>>>>> 1ca04eb7154d03ad9052b48b52ef9b9abcb4585a
 
@@ -15,3 +15,8 @@
 ### git checkout -b feature-branch
 ### git push origin feature-branch
 ### git pull origin main
+=======
+
+# SmartHealthApp
+
+>>>>>>> 1ca04eb7154d03ad9052b48b52ef9b9abcb4585a
